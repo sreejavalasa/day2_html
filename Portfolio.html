@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .nav-image {
+            display: block;
+            margin: 0 auto;
+            width: 100px;
+            height: auto;
+            text-align: right;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <div style="text-align:right; margin-left: 20px;">
+            <a href="#about">
+                <img src="pic.jpeg" alt="Clickable Image" class="nav-image">
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2 id="about">About Me</h2>
+        <p>I am Valasa Sreeja, a passionate CSE student with an interest in software development, AI, and web technologies. I enjoy working on innovative projects and learning new skills to enhance my expertise.</p>
+        
+        <h2 id="skills">Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, C++, JavaScript</li>
+            <li>Web Development: HTML, CSS, React.js</li>
+            <li>Software Tools: Visual Studio Code, Git</li>
+        </ul>
+
+        <h2 id="projects">Projects</h2>
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Technologies Used</th>
+            </tr>
+            <tr>
+                <td>Language Translator</td>
+                <td>A language translator using Tkinter with features like voice recognition and AI translation.</td>
+                <td>Python, Tkinter, Google Translate API</td>
+            </tr>
+            <tr>
+                <td>Anonymous Group Chat Application</td>
+                <td>A secure, anonymous platform for students to share doubts and interact.</td>
+                <td>React js, Socket.IO, Firebase</td>
+            </tr>
+            <tr>
+                <td>To-do-list</td>
+                <td>A Javascript program to mark the daily activities .</td>
+                <td>js, CSS</td>
+            </tr>
+        </table>
+
+        <h2 id="contact">Contact</h2>
+        <p> For more indetail information, feel free to email me at <a href="sreejavalasa150902@gmail.com" title="emailID">sreejavalasa150902@gmail.com</a>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [Valasa Sreeja]. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
